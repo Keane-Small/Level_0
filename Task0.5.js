@@ -1,7 +1,7 @@
 function areaOfTriangle(sOne,sTwo,sThree){
-    let semiPerimeter = (0.5)*(sOne + sTwo + sThree);
-    let area = Math.sqrt(semiPerimeter*((semiPerimeter - sOne)*(semiPerimeter - sTwo)*(semiPerimeter - sThree))); // formula to find area
-    return console.log(area);
+    const semiPerimeter = (0.5)*(sOne + sTwo + sThree);
+    const area = Math.sqrt(semiPerimeter*((semiPerimeter - sOne)*(semiPerimeter - sTwo)*(semiPerimeter - sThree))); // formula to find area
+    return area;
 }
 
 areaOfTriangle(3,4,5);

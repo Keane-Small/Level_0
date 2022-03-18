@@ -9,7 +9,7 @@ function commonChar (wOne,wTwo){
         }
         i++
     } while (i < wOne.length)
-    return console.log("Output: " + commonLetters.slice(0,-2)); // used .slice to remove the last comma
+    console.log("Output: " + commonLetters.slice(0,-2)); // used .slice to remove the last comma
 }
 
 commonChar("house","computers");

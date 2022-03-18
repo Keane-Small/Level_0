@@ -5,7 +5,7 @@ function maximum(){
             biggestNumber = arguments[i];
         }
     }
-    return console.log(biggestNumber);
+    return biggestNumber;
 }
 
 maximum(1202,2,35,1);

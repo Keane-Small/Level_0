@@ -17,7 +17,7 @@ function findVowels (word){
     if (word.indexOf("u") !== -1){
         vowels += " u,";
     }
-    return console.log("Vowels:" + vowels.slice(0,-1)); // used .slice to remove the last comma.
+    console.log("Vowels: " + vowels.slice(0,-1)); // used .slice to remove the last comma.
 }
 
 findVowels("Uzumi");
