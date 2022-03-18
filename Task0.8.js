@@ -1,6 +1,6 @@
 function hoursAndMinutes(num){
-    let numHours = Math.floor(num/60);
-    let numMinutes = num % 60;
+    const numHours = Math.floor(num/60);
+    const numMinutes = num % 60;
     
     if (numHours == 1 && numMinutes == 1){
         console.log(numHours + " hour, " + numMinutes + " minute ");
