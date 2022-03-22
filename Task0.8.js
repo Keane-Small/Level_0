@@ -8,9 +8,9 @@ function hoursAndMinutes(num) {
     console.log(numHours + " hours, " + numMinutes + " minutes");
   } else if (numHours > 1 && numMinutes == 1) {
     console.log(numHours + " hours, " + numMinutes + " minute");
-  } else if (numHours > 1 && numMinutes < 1 ){
+  } else if (numHours > 1 && numMinutes < 1) {
     console.log(numHours + " hours, " + numMinutes + " minutes");
-  }else {
+  } else {
     console.log(numHours + " hour, " + numMinutes + " minutes");
   }
 }

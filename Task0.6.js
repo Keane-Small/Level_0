@@ -1,11 +1,11 @@
-function maximum(){
-    let biggestNumber = 0;
-    for (let i = 0; i < arguments.length; i++){
-        if (biggestNumber < arguments[i]){
-            biggestNumber = arguments[i];
-        }
+function maximum() {
+  let biggestNumber = 0;
+  for (let i = 0; i < arguments.length; i++) {
+    if (biggestNumber < arguments[i]) {
+      biggestNumber = arguments[i];
     }
-    return biggestNumber;
+  }
+  return biggestNumber;
 }
 
-maximum(1202,2,35,1);
+maximum(1202, 2, 35, 1);
